@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OutputScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:layout_margin="10dp"
+        android:background="#D5FFFA"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Title"
+            android:textColor="@color/black"
+            android:textSize="12pt"
+            android:text="Sample"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:background="#00B19C"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:textSize="10pt"
+            android:textColor="#000000"
+            android:text="Sample"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/source"
+            android:textSize="8pt"
+            android:textColor="#838383"
+            android:textStyle="italic"
+            android:layout_marginStart="200dp"
+            android:text="Sample"
+            android:textAlignment="viewEnd"
+            android:background="#B7FFEE"
+            android:fontFamily="cursive"
+            android:padding="10dp"/>
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+
+                />
+    </LinearLayout>
+
+<Button
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="BACK"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="50dp"
+    android:onClick="back"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"/>
+
+
+</RelativeLayout>

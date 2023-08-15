@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CampusAggreg</string>
+    <string name="all_news">ALL NEWS</string>
+    <string name="student">Student</string>
+    <string name="administration">Administration</string>
+    <string name="department">Department</string>
+    <string name="begin">BEGIN</string>
+    <string name="read">READ</string>
+</resources>

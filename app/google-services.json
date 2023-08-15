@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "335553219837",
+    "firebase_url": "https://campusnewsproject-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "campusnewsproject",
+    "storage_bucket": "campusnewsproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335553219837:android:bfe85e0b391a59c51b0294",
+        "android_client_info": {
+          "package_name": "com.example.campusaggreg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335553219837-4mmj45u8gd6gdh736eimf3qe9vnpi9km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqWrxfaH3BKAe26gtJaxixeWmt2dfbmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335553219837-4mmj45u8gd6gdh736eimf3qe9vnpi9km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335553219837:android:e7b26fc6fe5904be1b0294",
+        "android_client_info": {
+          "package_name": "com.example.campusnewsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335553219837-4mmj45u8gd6gdh736eimf3qe9vnpi9km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqWrxfaH3BKAe26gtJaxixeWmt2dfbmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335553219837-4mmj45u8gd6gdh736eimf3qe9vnpi9km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
